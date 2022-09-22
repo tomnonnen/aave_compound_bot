@@ -6,14 +6,14 @@ For example, if we take USDT and the LTV is 0.95, we supply 100 USDT, then we bo
 With this strategy, we can compound the interest.
 
 ### constants.js
-This file contains the addresses of the smart contract of Aave and Uniswap, and the smart contract of the main stablecoins on Optimism Mainnet and on Optimism Testnet. Furthermore, it contains the readed ABIs of these smart contracts.
+This file contains the addresses of the smart contract of Aave and Uniswap, and the smart contract of the main stable coins on Optimism Mainnet and on Optimism Testnet. Furthermore, it contains the readed ABIs of these smart contracts.
 ### contracts.js
 This file contains the ethers js contracts of the smart contracts registered in constants.js
 ### DataRecovering.js
 This file recover the datas that we can find here : https://app.aave.com/markets/ \
-So, for each stable coins it recover : the borrow APY rate, the supply APY rate, the max LTV, the OP APY borrow rate, the  OP APY supply rate, and if the stable coin is in isolation mode (https://docs.aave.com/developers/whats-new/isolation-mode).
+So, for each stable coin it recover : the borrow APY rate, the supply APY rate, the max LTV, the OP APY borrow rate, the OP APY supply rate, and if the stable coin is in isolation mode (https://docs.aave.com/developers/whats-new/isolation-mode).
 ### Strategies.js
-This file contains all the utils function to create a strategy : it has the function that automatically supply, borrow, swap stablecoins on Uniswap. \
+This file contains all the utils function to create a strategy : it has the function that automatically supply and borrow on Aave, and function that swap stable coins on Uniswap. \
 You can write your strategies in this file.
 
 ## Use it

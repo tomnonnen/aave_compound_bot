@@ -13,7 +13,7 @@ This file contains the ethers js contracts of the smart contracts registered in 
 This file recover the datas that we can find here : https://app.aave.com/markets/ \
 So, for each stable coin it recover : the borrow APY rate, the supply APY rate, the max LTV, the OP APY borrow rate, the OP APY supply rate, and if the stable coin is in isolation mode (https://docs.aave.com/developers/whats-new/isolation-mode).
 ### Strategies.js
-This file contains all the utils function to create a strategy : it has the function that automatically supply and borrow on Aave, and function that swap stable coins on Uniswap. \
+This file contains all the utils function to create a strategy : it has the function that automatically supply and borrow on Aave, functions that let you withdraw and repay the funds, and function that swap stable coins on Uniswap. \
 You can write your strategies in this file.
 
 ## Use it

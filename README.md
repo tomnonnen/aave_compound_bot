@@ -3,7 +3,9 @@
 ## Context
 
 ### constants.js
+This file contains the addresses of the smart contract of Aave and Uniswap, and the smart contract of the main stablecoins on Optimism Mainnet and on Optimism Testnet. Furthermore, it contains the readed ABIs of these smart contracts.
 ### contracts.js
+This file contains the ethers js contracts of the smart contracts registered in constants.js
 ### DataRecovering.js
 ### Strategies.js
 

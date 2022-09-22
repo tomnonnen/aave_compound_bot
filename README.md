@@ -2,9 +2,9 @@
 
 ## Context
 The bot can analyze the interest of supply and borrow and can compound these interests. \
-All the utils functions to set up different strategies are included.
 For example, if we take USDT and the LTV is 0.95, we supply 100 USDT, then we borrow 95 USDT and we supply the 95 USDT again (we have so 195 USDT supplied and 95 borrowed), and we can continue again and again. \
 With this strategy, we can compound the interest. (looping)
+This repository share with you the utils and helpers function that can let you create differents strategies of interest compoundings.
 
 ### constants.js
 This file contains the addresses of the smart contract of Aave and Uniswap, and the smart contract of the main stable coins on Optimism Mainnet and on Optimism Testnet. Furthermore, it contains the readed ABIs of these smart contracts.

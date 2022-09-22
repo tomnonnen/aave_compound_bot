@@ -2,5 +2,11 @@
 
 ## Context
 
+### constants.js
+### contracts.js
+### DataRecovering.js
+### Strategies.js
+
+
 
 ## Use it

@@ -7,7 +7,7 @@ This file contains the addresses of the smart contract of Aave and Uniswap, and 
 ### contracts.js
 This file contains the ethers js contracts of the smart contracts registered in constants.js
 ### DataRecovering.js
-This file recover the datas that we can find here : https://app.aave.com/markets/
+This file recover the datas that we can find here : https://app.aave.com/markets/ \
 So, for each stable coins it recover : the borrow APY rate, the supply APY rate, the max LTV, the OP APY borrow rate, the  OP APY supply rate, and if the stable coin is in isolation mode (https://docs.aave.com/developers/whats-new/isolation-mode).
 ### Strategies.js
 

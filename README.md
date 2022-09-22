@@ -1,7 +1,7 @@
 # aave_compound_bot
 
 ## Context
-I wanted to create a bot that can analyze the interest and compound the supply and borrow. \
+I wanted to create a bot that can analyze the interest of supply and borrow and can compound these interests. \
 For example, we take USDT, the LTV is 0.95, we supply 100 USDT, then we borrow 95 USDT and we supply it again, and we can continue again and again. \
 With this strategy, we can compound the interest.
 
